@@ -1,0 +1,24 @@
+// @font-face {
+//     font-family: 'PT Sans';
+//     src: url('../public/fonts/PTSans-Bold.ttf') format('truetype'),
+//         url('../public/fonts/PTSans-BoldItalic.ttf') format('truetype'),
+//         url('../public/fonts/PTSans-Italic.ttf') format('truetype'),
+//         url('../public/fonts/PTSans-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f5ff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

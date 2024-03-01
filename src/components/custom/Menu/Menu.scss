@@ -1,0 +1,14 @@
+.Menu {
+    position: relative;
+
+    .Menu__Item {
+        padding: 10px;
+        cursor: pointer;
+        transition: .3s all ease;
+
+        &:hover {
+            color: #512d6c;
+            transition: .3s all ease;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+
+.AboutUs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    .container {
+        display: flex;
+        width: 95%;
+        max-width: 1200px;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .card {
+            display: flex;
+            width: 48%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                width: 100%;
+                color: rgb(81, 45, 109);
+                font-family: PT Sans;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 43.2px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-bottom: 31px;
+            }
+
+            span {
+                width: 100%;
+                color: rgb(81, 45, 109);
+                font-family: PT Sans;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            .cardimg {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 70%;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
